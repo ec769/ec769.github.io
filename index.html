@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<script>
+function hover(element) {
+  element.setAttribute('src', 'img_3340.jpg');
+}
+function unhover(element) {
+  element.setAttribute('src', 'img_7177.jpg');
+}
+</script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    ecai@umass.edu
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">About</a>
+ <!--     <a href="projects.html" class="w3-bar-item w3-button">Projects</a>-->
+	  <a href="research.html" class="w3-bar-item w3-button">Research</a>
+ <!--     <a href="contact.html" class="w3-bar-item w3-button">Contact</a>-->
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Erica Cai</h1><br>
+		<p class="w3-large"> I am a third year MS/PhD student in Computer Science at the University of Massachusetts Amherst. I am a member of <a href="https://nlp.cs.umass.edu/" style="text-decoration : none; color:blue" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='blue'" target="_blank">UMass NLP</a> and the Statistical Social Language Analysis lab and am advised by Prof. Brendan T. O'Connor. My research interests are broadly in the intersection of natural language processing and computational social science. Currently, I am working on developing zero-shot learning methods for extracting events between pairs of agents. </p>
+
+		<p class="w3-large">Previously in graduate school, my research was in causal inference, specifically in structure learning. My projects are in <a href="research.html" style="text-decoration : none; color:blue" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='blue'" target="_blank">Research</a>. Before graduate school, my research was in computational complexity theory and in developing methods to explore the privacy and security of ephemeral messages. </p>
+
+	<!--	<p class="w3-large">Outside of research, I run and play the piano. </p>-->
+		
+
+ 
+ <!--     <p class="w3-large">   Hi, thanks for visiting my web page! I am a senior undergraduate student at Rutgers University, studying Computer Science as my major and Political Science as my minor. In Fall 2020, I will begin on the MS/PhD track in the College of Information and Computer Sciences at the University of Massachusetts-Amherst, where I am mainly interested in the Artificial Intelligence and Machine Learning area. </p>
+
+	  <p class="w3-large">   At Rutgers, I've completed several projects (more information in the project page) and have been a recitation instructor for 3 semesters. </p>
+-->
+    </div>
+    
+	
+		<div class="w3-col l6 w3-padding-large">
+		  <img src="1.jpg" style="width:100%" ><!--onmouseover="hover(this);" onmouseout="unhover(this);">-->
+		</div>
+		
+  </div>
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<br><br><br><hr>
+  <p><center>Powered by w3.css.</center></p>
+
+
+</body>
+</html>
